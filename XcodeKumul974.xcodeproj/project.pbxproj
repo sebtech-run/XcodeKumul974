@@ -14,6 +14,7 @@
 		987398412C69CFE700D0EFBD /* XcodeKumul974Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987398402C69CFE700D0EFBD /* XcodeKumul974Tests.swift */; };
 		9873984B2C69CFE700D0EFBD /* XcodeKumul974UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873984A2C69CFE700D0EFBD /* XcodeKumul974UITests.swift */; };
 		9873984D2C69CFE700D0EFBD /* XcodeKumul974UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873984C2C69CFE700D0EFBD /* XcodeKumul974UITestsLaunchTests.swift */; };
+		9873985A2C6A121A00D0EFBD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987398592C6A121A00D0EFBD /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		987398462C69CFE700D0EFBD /* XcodeKumul974UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeKumul974UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9873984A2C69CFE700D0EFBD /* XcodeKumul974UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeKumul974UITests.swift; sourceTree = "<group>"; };
 		9873984C2C69CFE700D0EFBD /* XcodeKumul974UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeKumul974UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		987398592C6A121A00D0EFBD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				987398312C69CFE600D0EFBD /* ContentView.swift */,
 				987398332C69CFE700D0EFBD /* Assets.xcassets */,
 				987398352C69CFE700D0EFBD /* Preview Content */,
+				987398592C6A121A00D0EFBD /* MenuView.swift */,
 			);
 			path = XcodeKumul974;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				987398322C69CFE600D0EFBD /* ContentView.swift in Sources */,
+				9873985A2C6A121A00D0EFBD /* MenuView.swift in Sources */,
 				987398302C69CFE600D0EFBD /* XcodeKumul974App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

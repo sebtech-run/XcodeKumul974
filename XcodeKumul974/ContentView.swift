@@ -10,7 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Projet en cours")
+            NavigationStack {
+                Image("logo")
+                NavigationLink(destination: {MenuView()}) {
+                    Text("BIENVENUE")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.gray)
+                        .multilineTextAlignment(.center)
+                }
+                Spacer()
+            }
         }
         .padding()
     }
